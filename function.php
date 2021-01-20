@@ -8,7 +8,8 @@
 <body>
     <h1>function</h1>
     <?php
-    $str = "this is amuguna";
+    $str = "this is amuguna
+            sasdd";
     echo $str;
     ?>
     <h2>strlen()</h2>
