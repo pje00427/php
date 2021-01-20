@@ -11,7 +11,15 @@
         <li><a href="index.php?id=HTML">HTML</li>
         <li><a href="index.php?id=CSS">CSS</li>
         <li><a href="index.php?id=JavaScript">JavaScript</li>
-    </ol>      
+        <li><a href="index.php?id=PHP">PHP</li>
+    </ol>   
+    <?php
+    $list = scandir('data');
+    $i = 0;
+    while($i<count($list)){
+        
+    }
+    ?>   
     <h2>
         <?php
             if(isset($_GET['id'])){
@@ -19,7 +27,7 @@
             } else{
                 echo 'Welcome';
             }
-            
+
         ?>
     </h2>
 
